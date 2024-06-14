@@ -1,0 +1,238 @@
+body{
+  background-color:white;
+}
+.nav{
+  background-color:whitesmoke;
+  padding:0px;
+  margin:0px;
+}
+
+.nav-image{
+  border-radius:9px;
+  opacity:0.9;
+}
+.container .navbar #input-search{
+  border-style: groove;
+  border-radius:8px;
+}
+.container1{
+  display:flex;
+
+}
+.container2{
+  display:flex;
+
+}
+.container2 p{
+  margin-left: 95px;
+  margin-top: 10px;
+}
+.container1 img{
+  height:100px;
+  width:100px;
+  margin-left: 59px;
+  border-radius:9px;
+  margin-top: 20px;
+}
+.offeres{
+  /* background-image: url("../images/banner-3-offer.jpg"); */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width:80vw;
+  height:60vh;
+}
+.image1{
+  height:10vh;
+  width:9vw;
+
+}
+.scale{
+  transition: all 0.4s ease;
+  cursor:crosshair;
+}
+.scale:hover{
+  transform:scale3d(1.2 ,1.2, 1.2);
+  padding:4px;
+  cursor:pointer;
+  margin-left: 3px;
+  margin-right: 3px;
+  /* box-shadow: 1.2px 1.2px 1.2px 1.2px; */
+}
+.slide{
+  height:50vh;
+}
+.row1{
+  background-color:silver;
+  margin-left: 20px;
+  
+}
+.down-align{
+  margin-top: 20px;
+  
+  background-color:gray;
+}
+.down-align .box1 img:hover{
+  transform: scale(1.05);
+  cursor:pointer;
+}
+.box1{
+  background-color:white;
+  border-radius:10px;
+  border-style:solid;
+  border-color:gray;
+  color:black;
+ 
+  
+}
+.down-align .box1 img{
+  margin-top: 5px;
+  border-radius:9px;
+}
+.checkmate2 img{
+  width:20vw;
+  height:30vh;
+  gap:5px;
+ margin-left: 10px;
+}
+.section1{
+  background-color:whitesmoke;
+  box-sizing: border-box;
+  border-radius:9px;
+  border-style:groove;
+  cursor:pointer;
+
+}
+.section1 img{
+  transition: all 0.4s ease;
+  border-radius:10px;
+  border-width:3px;
+
+}
+.section1 img:hover{
+  transform: scale3d(1.3, 1.3 ,1.3);
+  border-radius:10px;
+  border-style:groove;
+}
+
+.checkmate2{
+  background-color:whitesmoke;
+  box-sizing: border-box;
+  border-radius:9px;
+  border-style:groove;
+  cursor:pointer;
+
+}
+.checkmate2 h3{
+  margin-top: 50px;
+}
+.checkmate2 img{
+  transition: all 0.4s ease;
+  border-radius:10px;
+  border-width:3px;
+
+}
+.checkmate2 img:hover{
+  transform: scale3d(1.2 , 1.2 , 1.2);
+}
+.section1{
+  background-color:whitesmoke;
+  box-sizing: border-box;
+  border-radius:9px;
+  border-style:groove;
+  cursor:pointer;
+
+}
+.section1 img{
+  transition: all 0.4s ease;
+  border-radius:10px;
+  border-width:3px;
+  width:200px;
+  height:200px;
+
+}
+.section1 img:hover{
+  transform: scale(1.03);
+  border-radius:10px;
+  border-style:groove;
+}
+.section2{
+  background-color:whitesmoke;
+  box-sizing: border-box;
+  border-radius:9px;
+  border-style:groove;
+  cursor:pointer;
+
+}
+.section2 img{
+  transition: all 0.4s ease;
+  border-radius:10px;
+  border-width:3px;
+  width:200px;
+  height:200px;
+
+}
+.section2 img:hover{
+  transform: scale(1.3, 1.3 ,1.3);
+  border-radius:10px;
+  border-style:groove;
+}
+.section3{
+  background-color:whitesmoke;
+  box-sizing: border-box;
+  border-radius:9px;
+  border-style:groove;
+  cursor:pointer;
+}
+.section3 img{
+  transition: all 0.4s ease;
+  border-radius:10px;
+  border-width:3px;
+
+}
+.section3 img:hover{
+  transform: scale(1.3, 1.3 ,1.3);
+  border-radius:10px;
+  border-style:groove;
+}
+.min{
+  color:green;
+  font-size:17px;
+}
+.footer{
+  background-color:black;
+  color:white;
+}
+.footer-list{
+  display:flex;
+}
+.footer-list h4:hover{
+  color:red;
+  text-decoration: dotted;
+  cursor:pointer;
+}
+.footer-list ul li{
+  list-style: none;
+  margin-top: 20px;
+}
+.footer-list ul li a{
+  text-decoration: none;
+  color:yellow;
+  cursor:pointer;
+  transition: all 0.4s ease;
+
+}
+.footer-list ul li a:hover{
+  color:whitesmoke;
+  text-decoration: underline;
+  transform: scale3d(1.2, 1.2, 1.2);
+}
+.but-fot{
+  margin-top: 20vh;
+  height:8vh;
+  margin-left: 10vh;
+  width:30vw;
+  transition: all 0.4s ease;
+}
+.but-fot:hover{
+  transform: scale3d(1.2,1.2,1.2);
+}
